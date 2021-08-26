@@ -8,7 +8,7 @@ import time
 # loading the stored model from file
 model = load_model(r'/home/user/Downloads/Fire-64x64-color-v7-soft.h5')
 
-cap = cv2.VideoCapture(r'/home/user/Downloads/Fire Blaze .avi')
+cap = cv2.VideoCapture(r'/home/user/Downloads/Fire Blaze.avi')
 time.sleep(2)
 
 if cap.isOpened():  # try to get the first frame
